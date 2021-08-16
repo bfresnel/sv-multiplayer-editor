@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+>
+
+    <xsd:element name="SaveGame">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="player" type="xsd:string"/>
+                <xsd:element name="locations" type="xsd:string"/>
+                <xsd:element name="currentSeason" type="xsd:string"/>
+                <xsd:element name="samBandName" type="xsd:string"/>
+                <xsd:element name="elliottBookName" type="xsd:string"/>
+                <xsd:element name="broadcastedMail" type="xsd:string"/>
+                <xsd:element name="worldStateIDs" type="xsd:string"/>
+                <xsd:element name="lostBooksFound" type="xsd:string"/>
+                <xsd:element name="goldenWalnuts" type="xsd:string"/>
+                <xsd:element name="goldenWalnutsFound" type="xsd:string"/>
+                <xsd:element name="miniShippingBinsObtained" type="xsd:string"/>
+                <xsd:element name="mineShrineActivated" type="xsd:boolean"/>
+                <xsd:element name="goldenCoconutCracked" type="xsd:boolean"/>
+                <xsd:element name="parrotPlatformsUnlocked" type="xsd:boolean"/>
+                <xsd:element name="farmPerfect" type="xsd:boolean"/>
+                <xsd:element name="foundBuriedNuts" type="xsd:string"/>
+                <xsd:element name="visitsUntilY1Guarantee" type="xsd:string"/>
+                <xsd:element name="shuffleMineChests" type="xsd:string"/>
+                <xsd:element name="dayOfMonth" type="xsd:string"/>
+                <xsd:element name="year" type="xsd:string"/>
+                <xsd:element name="farmerWallpaper" type="xsd:string"/>
+                <xsd:element name="FarmerFloor" type="xsd:string"/>
+                <xsd:element name="currentWallpaper" type="xsd:string"/>
+                <xsd:element name="currentFloor" type="xsd:string"/>
+                <xsd:element name="currentSongIndex" type="xsd:string"/>
+                <xsd:element name="countdownToWedding" type="xsd:string"/>
+                <xsd:element name="incubatingEgg" type="xsd:string"/>
+                <xsd:element name="chanceToRainTomorrow" type="xsd:string"/>
+                <xsd:element name="dailyLuck" type="xsd:string"/>
+                <xsd:element name="uniqueIDForThisGame" type="xsd:string"/>
+                <xsd:element name="weddingToday" type="xsd:boolean"/>
+                <xsd:element name="isRaining" type="xsd:boolean"/>
+                <xsd:element name="isDebrisWeather" type="xsd:boolean"/>
+                <xsd:element name="shippingTax" type="xsd:boolean"/>
+                <xsd:element name="bloomDay" type="xsd:boolean"/>
+                <xsd:element name="isLightning" type="xsd:boolean"/>
+                <xsd:element name="isSnowing" type="xsd:boolean"/>
+                <xsd:element name="shouldSpawnMonsters" type="xsd:boolean"/>
+                <xsd:element name="hasApplied1_3_UpdateChanges" type="xsd:boolean"/>
+                <xsd:element name="hasApplied1_4_UpdateChanges" type="xsd:boolean"/>
+                <xsd:element name="musicVolume" type="xsd:string"/>
+                <xsd:element name="soundVolume" type="xsd:string"/>
+                <xsd:element name="cropsOfTheWeek" type="xsd:string"/>
+                <xsd:element name="dishOfTheDay" type="xsd:string"/>
+                <xsd:element name="highestPlayerLimit" type="xsd:string"/>
+                <xsd:element name="moveBuildingPermissionMode" type="xsd:string"/>
+                <xsd:element name="locationWeather" type="xsd:string"/>
+                <xsd:element name="bannedUsers" type="xsd:string"/>
+                <xsd:element name="bundleData" type="xsd:string"/>
+                <xsd:element name="limitedNutDrops" type="xsd:string"/>
+                <xsd:element name="latestID" type="xsd:string"/>
+                <xsd:element name="options" type="xsd:string"/>
+                <xsd:element name="splitscreenOptions" type="xsd:string"/>
+                <xsd:element name="CustomData" type="xsd:string"/>
+                <xsd:element name="mine_permanentMineChanges" type="xsd:string"/>
+                <xsd:element name="mine_lowestLevelReached" type="xsd:string"/>
+                <xsd:element name="minecartHighScore" type="xsd:string"/>
+                <xsd:element name="weatherForTomorrow" type="xsd:string"/>
+                <xsd:element name="whichFarm" type="xsd:string"/>
+                <xsd:element name="mine_lowestLevelReachedForOrder" type="xsd:string"/>
+                <xsd:element name="skullCavesDifficulty" type="xsd:string"/>
+                <xsd:element name="minesDifficulty" type="xsd:string"/>
+                <xsd:element name="currentGemBirdIndex" type="xsd:string"/>
+                <xsd:element name="junimoKartLeaderboards" type="xsd:string"/>
+                <xsd:element name="specialOrders" type="xsd:string"/>
+                <xsd:element name="availableSpecialOrders" type="xsd:string"/>
+                <xsd:element name="completedSpecialOrders" type="xsd:string"/>
+                <xsd:element name="acceptedSpecialOrderTypes" type="xsd:string"/>
+                <xsd:element name="returnedDonations" type="xsd:string"/>
+                <xsd:element name="junimoChest" type="xsd:string"/>
+                <xsd:element name="collectedNutTracker" type="xsd:string"/>
+                <xsd:element name="farmerFriendships" type="xsd:string"/>
+                <xsd:element name="cellarAssignments" type="xsd:string"/>
+                <xsd:element name="lastAppliedSaveFix" type="xsd:string"/>
+                <xsd:element name="gameVersion" type="xsd:string"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
